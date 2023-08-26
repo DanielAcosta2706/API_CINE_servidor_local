@@ -1,0 +1,19 @@
+CREATE DATABASE apiCine;
+
+USE apiCine;
+
+CREATE TABLE users (
+id int NOT NULL AUTO_INCREMENT,
+name varchar(255),
+surname varchar(255),
+dateBirth varchar(255),
+gender varchar(255),
+phone int(25),
+email varchar(255) UNIQUE KEY,
+password varchar(255),
+image varchar(255),
+PRIMARY KEY(id));
+
+insert into users values(null, "Jose", "Rodriguez", "1990-04-26", "Masculino", "1165305520", "jose@gmail.com", "12345678", "null");
+insert into users values(null, "Maria", "Bustamante", "1999-01-21", "Femenino", "1123968814", "marilfonzoc@gmail.com", "12345678", "");
+insert into users values(null, "Samuel", "Lopez", "1999-10-14", "Masculino", "1189767898", "samuelL@gmail.com", "12345678", "null");

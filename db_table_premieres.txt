@@ -1,0 +1,23 @@
+CREATE DATABASE apiCine;
+
+USE apiCine;
+
+CREATE TABLE proximos_estrenos (
+id int NOT NULL AUTO_INCREMENT,
+nombre varchar(255),
+genero varchar(255),
+duracion varchar(255),
+dia varchar(255),
+descripcion varchar(255),
+imagen varchar(255),
+PRIMARY KEY(id));
+
+insert into proximos_estrenos values(null, "La era del hielo", "Animacion", "81 MIN", "2022-10-10", "Hace 20.000 años, la Tierra es un lugar prehistorico lleno de
+peligros, entre ellos el comienzo de la Edad de hielo. Para evitar quedarse congelados, las criaturas majestuosas empiezan a emigrar hacia el sur", "null");
+insert into proximos_estrenos values(null, "It(Eso)", "Terror", "135 MIN", "2022-11-11", "Varios niños de una pequeña ciudad del estado de Maine se alian para combatir 
+a una entidad diabolica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil", "null");
+insert into proximos_estrenos values(null, "Busqueda implacable", "Accion", "93 MIN", "2022-12-12", "El exagente de las fuerzas especiales de elite Bryan Millis se ve
+enredado en la trama de una organizacion criminal cuando trata de salvar a su hija, Kim", "null");
+
+
+

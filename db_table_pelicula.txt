@@ -1,0 +1,27 @@
+CREATE DATABASE apiCine;
+
+USE apiCine;
+
+CREATE TABLE pelicula (
+id int NOT NULL AUTO_INCREMENT,
+nombre varchar(255),
+cine varchar(255),
+descripcion varchar(255),
+dia varchar(255),
+horarioM varchar(255),
+horarioT varchar(255),
+horarioN varchar(255),
+imagen varchar(255),
+PRIMARY KEY(id));
+
+insert into pelicula values(null, "Shrek", "Puerto Madero", "Es un ogro verde y solitario que tiene su hogar en un pantano, un dia conoce a un burro que habla
+que huyo de su curel dueña y no le teme pese a sus intentos por asustarlo e insiste en hacerle compañia", " ", " ", " ", " ", "null");
+insert into pelicula values(null, "El conjuro", "Palermo", "Basada en hechos reales, narra la historia de los encuentros sobrenaturales que vivio la familia Perron
+en su casa de Rhode Island a principios de los años 70", " ", " ", " ", " ", "null");
+insert into pelicula values(null, "Mision imposible", "Microcentro", "Ethan Hunt es un espia capaz de llevar a cabo las misiones mas peligrosas con la maxima eficacia.
+Ahora debe participar en una dificilisima mision; evitar la venta de un disco robado que contiene informacion secreta", " ", " ", " ", " ", "null");
+
+
+
+
+

@@ -1,0 +1,23 @@
+CREATE DATABASE apiCine;
+
+USE apiCine;
+
+CREATE TABLE cine (
+id int NOT NULL AUTO_INCREMENT,
+nombre varchar(255),
+pelicula varchar(255),
+dia varchar(255),
+horarioM varchar(255),
+horarioT varchar(255),
+horarioN varchar(255),
+idioma varchar(255),
+clasificacion varchar(255),
+image varchar(255),
+PRIMARY KEY(id));
+
+insert into cine values(null, "Puerto Madero", "Capitan America", " ", " ", " ", " ", "Español", "A", "null");
+insert into cine values(null, "Microcentro", "Hulk", " ", " ", " ", " ", "Subtitulado", "B", "null");
+insert into cine values(null, "Palermo", "Pantera Negra", " ", " ", " ", " ", "Español", "C", "null");
+
+
+
